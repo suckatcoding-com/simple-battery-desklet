@@ -47,7 +47,7 @@ Want to add your language?
     ```
 3. Compile the .po file into a .mo file using msgfmt:
     ```bash
-    msgfmt fr.po -o locale/fr/LC_MESSAGES/simple-battery@suckatcoding.com.mo
+    msgfmt po/fr.po -o locale/fr/LC_MESSAGES/simple-battery@suckatcoding.com.mo
     ```
 4. Restart Cinnamon.
 5. Feel free to open a Pull Request to share your translation with everyone!
