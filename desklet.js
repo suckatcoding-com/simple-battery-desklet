@@ -163,8 +163,7 @@ SimpleBatteryDesklet.prototype = {
                         this.uptimeLabel.set_text(_("Uptime:") + " " + minutes + _("min"));
                     }
                 }
-            } catch (e) {
-            }
+            } catch (e) {}
         });
     },
 
